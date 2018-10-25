@@ -1,8 +1,11 @@
 学了一段时间``React``和``Redux``基础后，终于手痒痒要自己来码demo了！
+
 从头顺一遍，理清思路！GO！
 
 ### 页面浏览
 ![刚初始化的页面](https://upload-images.jianshu.io/upload_images/7016617-5b5e833c5e244d8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ![点击了6次Click Me按钮，4次Say Hello按钮](https://upload-images.jianshu.io/upload_images/7016617-bfd80218650e4138.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
@@ -34,12 +37,21 @@ cnpm i redux --s
 
 ### 三、编写组件
 在 src/components/ 下新建一个 Couter.js ：
+
+
 ![目录结构](https://upload-images.jianshu.io/upload_images/7016617-40a9f6ff16edff00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 想实现的功能：
+
+
 两个按钮，一个在点击的时候会自身加1，一个在点击的时候加 'hello!'。所以有：
+
+
 两个事件：``onIncreaseClick``、`` onSayHello`` 。
+
+
 两个参数： ``count``、 ``hello``。
+
 ```javascript
 import React from 'react'
 import { Component } from 'react'
