@@ -103,7 +103,9 @@ const increaseAction = {
 }
 
 export default increaseAction
+```
 
+```
 // hello.js
 const sayHelloAction = {
     type: 'sayHello'
